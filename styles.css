@@ -1,0 +1,118 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* First section */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 32px 200px;
+}
+
+.headerBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heroBanner {
+    display: flex;
+    flex-direction: row;
+}
+
+.heroTitle {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.headerLogo {
+    font-size: 32px;
+}
+
+.placeheader {
+    height: 200px;
+    width: 800px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Second section */
+
+.randomInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.randomTitle {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.item {
+    height: 300;
+    width: 300px;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+    align-content: center;
+    gap: 8px;
+}
+
+img {
+    display: flex;
+    flex: 1;
+}
+
+
+/*Third section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+
+/*Fourth section */
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Universal*/
+
+.signUpButton {
+    background-color: #3882F6;
+    padding: 5px;
+}
