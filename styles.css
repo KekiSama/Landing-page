@@ -15,14 +15,14 @@ body {
     background-color: #1F2937;
     color: white;
     padding: 0px 200px;
+    margin: 0;
 }
 
 .headerBar {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .heroContainer {
@@ -37,10 +37,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 400px;
+    gap: 16px;
 }
 
 .signUpButton1 {
-    width: 200px;
+    width: 150px;
 }
 
 .heroTitle {
