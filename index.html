@@ -2,54 +2,76 @@
 <html lang="en">
 
 <head>
-    <link href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<header>
-    <div>
-        <img src="https://cdn.pixabay.com/photo/2020/05/08/16/19/border-collie-5146406_960_720.png" alt="Header Logo">
-        <a href="about.html">About</a>
-        <a href="Contant">Contact</a>
-        <a href="FAQ">FAQ</a>
-    </div>
-</header>
 
 <body>
-    <div class="section-1">
-        <h1>This Website is awesome</h1>
-        <p1>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast
-        </p1>
-        <button>Sign up</button>
-        <img src="https://images.unsplash.com/photo-1568393691080-d016376b767d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1931&q=80" alt="Border Collie">
+    <div class="header">
+        <div class="headerBar">
+            <div class="headerLogo">Header logo</div>
+            <ul class="links">
+                <li><a class="nav-links" href="about.html">About</a></li>
+                <li><a class="nav-links" href="Contact">Contact</a></li>
+                <li><a class="nav-links" href="FAQ">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="heroBanner">
+            <div class="heroTitle">This Website is awesome</div>
+            <div>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast
+            </div>
+
+            <button class="button">Sign up</button>
+            <img class="placeheader" src="https://images.unsplash.com/photo-1568393691080-d016376b767d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1931&q=80" alt="Border Collie">
+        </div>
     </div>
-    <div class="section-2">
-        <h2>Some Random Information</h2>
-        <img src="https://images.pexels.com/photos/7678417/pexels-photo-7678417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Border collie">
-        <figcaption>this is some subtext under an illustration</figcaption>
-        <img src="https://images.pexels.com/photos/7210704/pexels-photo-7210704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Border collie">
-        <figcaption>this is some subtext under an illustration</figcaption>
-        <img src="https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1631&q=80" alt="Border collie">
-        <figcaption>this is some subtext under an illustration</figcaption>
-        <img src="https://images.unsplash.com/photo-1593270379182-fe1b1f6d67e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=686&q=80" alt="Border collie">
-        <figcaption>this is some subtext under an illustration</figcaption>
+
+    <div class="randomInfo">
+        <div class="randomTitle">>Some Random Information</div>
+        <div class="items">
+            <img class="item" src="https://images.pexels.com/photos/7678417/pexels-photo-7678417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Border collie">
+            <div class="text">this is some subtext under an illustration</div>
+        </div>
+
+        <div class="items">
+            <img class="item" src="https://images.pexels.com/photos/7210704/pexels-photo-7210704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Border collie">
+            <div class="text">this is some subtext under an illustration</div>
+        </div>
+
+        <div class="items">
+            <img class="item" src="https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1631&q=80" alt="Border collie">
+            <div class="text">this is some subtext under an illustration</div>
+        </div>
+
+        <div class="items">
+            <img class="item" src="https://images.unsplash.com/photo-1593270379182-fe1b1f6d67e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=686&q=80" alt="Border collie">
+            <div class="text">this is some subtext under an illustration</div>
+        </div>
     </div>
-    <div class="section-3">
-        <p1>
-            This is an inspiring quote, or t estimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice. - Thor, God of Thunder.
-        </p1>
+
+
+
+    <div class="quote-section">
+        <div class="quote">
+            This is an inspiring quote, or t estimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+            <div class="quotee">- Thor, God of Thunder.</div>
+        </div>
     </div>
-    <div class="section-4">
-        <p1>Call to action! It's time!</p1>
-        <p2>Sign up for our product by clicking that button right over there!</p2>
-        <button>Sign up</button>
+
+    <div class="signUpBanner">
+        <div>Call to action! It's time!</div>
+        Sign up for our product by clicking that button right over there!
+        <button class="signUpButton">Sign up</button>
+    </div>
+
+    <div class="footer">
+        <p>Copyright © The Odin Project 2021</p>
     </div>
 
 </body>
-<footer>
-    <p1>Copyright © The Odin Project 2021</p1>
-</footer>
+
 
 </html>
